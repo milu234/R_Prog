@@ -1,4 +1,7 @@
-id <- c(1:5)
-name <- c("Superman","Flash","Arrow","Felicity","Ray")
-classstd = data.frame(id,name)
-classstd
+vtr <- c(150,200,250,300,350)
+option <- "median"
+switch(option,
+       "mean" = print(mean(vtr)),
+       "mode" = print(mode(vtr)),
+       "median" = print(median(vtr)),
+       print("Invalid Input"))
