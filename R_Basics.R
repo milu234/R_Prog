@@ -5,3 +5,5 @@ switch(option,
        "mode" = print(mode(vtr)),
        "median" = print(median(vtr)),
        print("Invalid Input"))
+data()
+
