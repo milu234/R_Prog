@@ -35,3 +35,41 @@ t <- c("Sun","Mon","Tue","Wed",
        "Thurs","Fri", "Sat")
 u <- t[c(2,3,6)]
 print(u)
+
+
+x <- "dataset"
+class(x)
+typeof(x)
+length(x)
+attributes(x)
+
+y <- 1:10
+y
+class(y)
+typeof(y)
+length(y)
+attributes(y)
+
+
+z <- as.numeric(y)
+z
+class(z)
+typeof(z)
+length(z)
+attributes(z)
+
+v <- TRUE
+v
+class(v)
+typeof(v)
+length(v)
+attributes(v)
+
+
+v <- 2+5i
+v
+class(v)
+typeof(v)
+length(v)
+attributes(v)
+
