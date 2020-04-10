@@ -41,5 +41,24 @@ res
 temp_data = merge(x = emp , y = dept, by = 'dno')
 temp_data
 
+#Outer Join
+temp_data = merge(x = emp , y = dept, by = 'dno',all = TRUE)
+temp_data
+
+#Left Outer Join
+temp_data = merge(x = emp , y = dept, by = 'dno',all.x = TRUE)
+temp_data
+
+#Right Outer Join
+temp_data4 = merge(x = emp , y = dept, by = 'dno',all.y = TRUE)
+temp_data4
+
+#Cross Join
+temp_data4 = merge(x = emp , y = dept, by = NULL)
+temp_data4
+
+
+
+
 
 
